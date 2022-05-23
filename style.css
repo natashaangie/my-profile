@@ -1,0 +1,81 @@
+/* Colors and Fonts */
+body {
+	background-color: #c5ad9c;
+    color: #9a7658;
+    font-family: fantasy;
+    text-align: center;
+    line-height: 1.5;
+
+
+}
+h1 {
+	color: saddlebrown;
+	font-family: unset;
+	text-align: center;
+}
+h2 {
+	color: #5a2d0c;
+    font-family: unset;
+    font-size: larger;
+}
+a {
+	text-decoration: underline;
+	color: sandybrown;
+
+}
+a:hover {
+	color:maroon;
+	text-decoration: bold;
+}
+div {
+    background: #fef5d6;
+    width: 650px;
+    margin: 40px auto;
+    border: 10px black;
+    padding: 30px;
+    box-shadow: 0px 5px 10px #b38d5e;
+
+}
+
+/* Custom design with class */
+
+@media (max-width: 540px) {
+	.container
+}
+
+.btn {
+	border: 3px black;
+	background: sienna;
+	padding: 8px 15px;
+	border-radius: 4px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.list-inline {
+	list-style: none;	
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 300%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
